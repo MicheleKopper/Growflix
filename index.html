@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growflix</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar bg-body-transparent">
+            <div class="container mx-4">
+                <a class="navbar-brand" href="/">
+                    <img src="./img/logo-growflix.svg" alt="Logo Growflix" width="120">
+                </a>
+            </div>
+        </nav>
+
+        <div class="container text-center">
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 text-white mt-lg-5">
+                    <h1>Crowcasts, webinars e muito mais. Sem limites</h1>
+                </div>
+            </div>
+
+            <div class="row text-white">
+                <div class="col fs-3 m-3">
+                    <p>Assista onde quiser</p>
+                </div>
+            </div>
+
+            <div class="row text-white">
+                <div class="col fs-5 mb-3">
+                    <p>Pronto para assistir?</p>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col text-center mb-lg-5">
+                    <a class="btn" href="#" role="button" id="btnBody">Vamos lá!</a>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- 1° sessão -->
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-5 text-white">
+                    <h2>Aproveite na TV</h2>
+                    <p class="descricao">Assista em Smart TVs, PlayStation, Chomecast e outros dispositivos</p>
+                </div>
+
+                <div class="col-sm-12 col-md-5 text-center">
+                    <img src="./img/tela-tv-dia-dev.png" alt="Imagem tv">
+                </div>
+            </div>
+        </div>
+
+        <!-- 2°sessão -->
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col col-sm-12 col-md-5 text-white">
+                    <img src="./img/devices.png" alt="Imagem celular">
+                </div>
+
+                <div class="col col-sm-12 col-md-5 text-white">
+                    <h2>Assista quando quiser</h2>
+                    <p class="descricao">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-white text-center mt-5 mb-1">
+                    <h2>Perguntas frequentes</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8 mb-5">
+                    <div class="accordion-item bg-dark text-white-50">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                O que é a Growflix?
+                                <span class="accordion-icon-container">
+                                    <img src="./img/add.svg" alt="Ver mais" class="accordion-icon plus-icon">
+                                    <img src="./img/minus.svg" alt="Ver menos" class="accordion-icon minus-icon"
+                                        style="display: none;">
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                accordion body.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-5 border-black">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Quanto custa a Growflix?
+                                <span class="accordion-icon-container">
+                                    <img src="./img/add.svg" alt="Ver mais" class="accordion-icon plus-icon">
+                                    <img src="./img/minus.svg" alt="Ver menos" class="accordion-icon minus-icon"
+                                        style="display: none;">
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-5 border-black">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Onde posso assistir?
+                                <span class="accordion-icon-container">
+                                    <img src="./img/add.svg" alt="Ver mais" class="accordion-icon plus-icon">
+                                    <img src="./img/minus.svg" alt="Ver menos" class="accordion-icon minus-icon"
+                                        style="display: none;">
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                accordion body. Nothing more exciting happening here in terms of content, but just
+                                filling up the space to make it look, at least at first glance, a bit more
+                                representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-5 border-black">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                O que eu posso assistir na Growflix?
+                                <span class="accordion-icon-container">
+                                    <img src="./img/add.svg" alt="Ver mais" class="accordion-icon plus-icon">
+                                    <img src="./img/minus.svg" alt="Ver menos" class="accordion-icon minus-icon"
+                                        style="display: none;">
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-black">Placeholder content for this accordion, which is
+                                intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the fourth item's
+                                accordion body. Nothing more exciting happening here in terms of content, but just
+                                filling up the space to make it look, at least at first glance, a bit more
+                                representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-5 border-black">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                A Growflix é adequada para crianças?
+                                <span class="accordion-icon-container">
+                                    <img src="./img/add.svg" alt="Ver mais" class="accordion-icon plus-icon">
+                                    <img src="./img/minus.svg" alt="Ver menos" class="accordion-icon minus-icon"
+                                        style="display: none;">
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the fifth item's
+                                accordion body. Nothing more exciting happening here in terms of content, but just
+                                filling up the space to make it look, at least at first glance, a bit more
+                                representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-white text-center mb-5">
+                <p>Pronto para assistir?</p>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col text-center mb-lg-5">
+                <a class="btn" href="#" role="button" id="btnBody">Vamos lá!</a>
+            </div>
+        </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="container mt-5 mb-5">
+
+            <div class="row">
+                <div class="col">
+                    <p>Dúvidas? Ligue 0800 591 8942</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="/">Perguntas frequentes</a>
+                        <a class="nav-link" href="">Relações com investidores</a>
+                        <a class="nav-link" href="#">Formas de assistir</a>
+                        <a class="nav-link" href="#">Informações corporativas</a>
+                        <a class="nav-link" href="#">Só na Growflix</a>
+                    </nav>
+                </div>
+
+                <div class="col">
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Central de ajuda</a>
+                        <a class="nav-link" href="#">Carreiras</a>
+                        <a class="nav-link" href="#">Termos de uso</a>
+                        <a class="nav-link" href="#">Entre em contato</a>
+                    </nav>
+                </div>
+
+                <div class="col">
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Conta</a>
+                        <a class="nav-link" href="#">Resgatar cartão pré-pago</a>
+                        <a class="nav-link" href="#">Privacidade</a>
+                        <a class="nav-link" href="#">Teste de velocidade</a>
+                    </nav>
+                </div>
+
+                <div class="col">
+                    <nav class="nav flex-column">
+                        <a class="nav-link" href="#">Media center</a>
+                        <a class="nav-link" href="#">Comprar cartão pré-pago</a>
+                        <a class="nav-link" href="#">Preferências de cookies</a>
+                        <a class="nav-link" href="#">Avisos legais</a>
+                    </nav>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Growflix Growdev</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+    <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

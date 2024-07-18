@@ -1,0 +1,71 @@
+header{
+    background-image: url(./img/banner-initial.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* cover = pega todo tamanho da div */
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.descricao{
+    font-size: 30px;
+}
+
+#btnBody{
+    width: 170px;
+    height: 80px;
+    background-color: #C40C0C;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #303030;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.accordion-icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Move the icon to the right */
+}
+
+.accordion-button .accordion-icon {
+    width: 20px; /* Ajuste conforme necessário */
+    height: 20px; /* Ajuste conforme necessário */
+    margin-left: 10px; /* Ajuste conforme necessário */
+}
+
+
+footer{
+    color: #a9a9a9;
+}
